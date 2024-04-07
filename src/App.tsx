@@ -1,17 +1,29 @@
-import './App.css'
-import ButtonFatec from './components/button-fatec'
+import CustomInput from './components/Input';
+import ButtonFatec from './components/button-fatec';
+import './App.css'; 
 
 function App() {
   return (
     <>
-      <p>Olá mundo</p>
-      <ButtonFatec type='button' label='Botão 1' />
-      <ButtonFatec type='button' label='Botão 2' />
-      <p>Teste</p>
+      <div className="container">
+      <h1>Entre em contato</h1>
+      <div className='separator'></div>
+      <form>
+        <div className="form-group">          
+          <CustomInput type="input" placeholder="nome" initialValue={''} />
+        </div>
+        <div className="form-group">          
+          <CustomInput type="email" placeholder="e-mail" initialValue={''} />
+        </div>
+        <div className="form-group">          
+          <CustomInput type="tel" placeholder="telefone" initialValue={''} />
+        </div>
+        <div className='separator'></div>
+        <ButtonFatec type="submit" label="Enviar" />
+      </form>
+    </div>
     </>
-  )
+  );
 }
 
-/* const App = () => {} */
-
-export default App
+export default App;   
