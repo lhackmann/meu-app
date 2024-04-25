@@ -1,31 +1,17 @@
-import styles from './home.module.css'
-import { Link, useNavigate } from 'react-router-dom'
-
+import ButtonFatec from "../../components/button-fatec"
+import Layout from "../../components/layout"
 
 function Home(){
-    const navigate = useNavigate()
-
     return (
-        
-        <>
-        <div className={styles.container}>
-            <h1 onClick={() => {
-                navigate('/')
-            }}>Home</h1>
-            
-            <Link to='/sobre'>Sobre   </Link>           
-            <Link to='/Contato'>Contato  </Link>
-            <Link to='/Tarefas'>   Tarefas   </Link>
-        </div>
-        <body className={styles.body}>
-        <p>Projeto realizado a pedido da John Deere para logística de transporte.</p>
-
-    
-        </body>
-        </>
+        <Layout>
+                    <div>
+                        <h1>Home</h1>
+                        
+                        <ButtonFatec label='Teste de botão' type="button" />
+                        
+                    </div>
+        </Layout>
     )
 }
 
 export default Home
-
-//adiciona ruma breve informação sobre o projeto

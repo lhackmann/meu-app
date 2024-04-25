@@ -1,19 +1,11 @@
-import { Link } from "react-router-dom"
-import styles from './Sobre.module.css'
+import Layout from "../../components/layout"
 
 function Sobre(){
     return (
-        <div className={styles.container}>
-            <h1>Sobre</h1>
-            <Link to='/'>Home   </Link>           
-            <Link to='/Contato'>Contato  </Link>
-            <Link to='/Tarefas'>   Tarefas   </Link>   
-            <div>     
-              
-            <p>Projeto realizado por Lucas Hackmann, brasileiro de 26 anos estudante de programação.</p>
-            
-            </div>  
-        </div>
+        <Layout>
+            <h1>Lucas Hackmann, 26, Brasil</h1><p></p>
+            <h1>A John Deere, uma renomada empresa do setor agrícola, busca implementar uma solução de vistoria para padronizar as inspeções em todas as suas fábricas. Esta solução visa fornecer uma abordagem sistematizada para a realização de inspeções, garantindo a rastreabilidade de avarias e facilitando a gestão da qualidade em suas operações fabris.</h1><p></p>
+        </Layout>
     )
 }
 

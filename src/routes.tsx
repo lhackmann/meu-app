@@ -1,9 +1,10 @@
-import {createBrowserRouter } from 'react-router-dom'
-import Sobre from './Pages/sobre'
+import { createBrowserRouter } from 'react-router-dom'
+
 import Home from './Pages/home'
+import Sobre from './Pages/sobre'
 import NotFound from './Pages/404'
-import Contato from './Pages/contato'
 import Tarefas from './Pages/tarefas'
+import Contato from './Pages/contato'
 
 const router = createBrowserRouter([
   {path: '/', element: <Home />, errorElement: <NotFound />},
@@ -13,3 +14,4 @@ const router = createBrowserRouter([
 ])
 
 export default router
+
