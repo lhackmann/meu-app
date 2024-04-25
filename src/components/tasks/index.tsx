@@ -39,20 +39,21 @@ function Task({name}: Props){
                 </GridItem>
                 <GridItem area={'add'}>
                     <Button backgroundColor={'lightblue'}>
-                        Insert
+                        Inserir
                     </Button>
                 </GridItem>
                 <GridItem area={'line'} borderBottom='2px solid gray'/>
                 <GridItem area={'task1'} border-radius='25px'>
-                    <TaskItem name={'task 1'} />
+                    <TaskItem name={'tarefa 1'} />
                 </GridItem>
                 <GridItem area={'task2'}>
-                    <TaskItem name={'task 2'} />
+                    <TaskItem name={'tarefa 2'} />
                 </GridItem>
                 <GridItem area={'task3'}>
-                    <TaskItem name={'task 3'} />
+                    <TaskItem name={'tarefa 3'} />
                 </GridItem>
             </Grid>
+            
         </>
     
     )

@@ -54,7 +54,7 @@ import {
               textAlign={useBreakpointValue({ base: 'center', md: 'left' })}
               fontFamily={'heading'}
               color={useColorModeValue('gray.800', 'white')}>
-              Logo
+              Hackmann
             </Text>
   
             <Flex display={{ base: 'none', md: 'flex' }} ml={10}>
@@ -81,7 +81,7 @@ import {
               fontSize={'sm'}
               fontWeight={600}
               color={'white'}
-              bg={'pink.400'}
+              bg={'lightblue'}
               href={'#'}
               _hover={{
                 bg: 'pink.300',

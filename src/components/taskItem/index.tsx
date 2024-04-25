@@ -22,10 +22,10 @@ function TaskItem({name}: Props) {
                     {name}
                 </GridItem>
                 <GridItem colSpan={1} rowSpan={1} >
-                    <ButtonFatec type={"button"} label={"Pending"} />
+                    <ButtonFatec type={"button"} label={"Pendente"} />
                 </GridItem>
                 <GridItem colSpan={1} rowSpan={1}>
-                    <ButtonFatec type={"button"} label={"Delete"} />
+                    <ButtonFatec type={"button"} label={"Excluir"} />
                 </GridItem>    
             </Grid>
         </>

@@ -10,7 +10,7 @@ function Form(){
             <br />
             <InputFatec type="text" defaultValue="" placeHolder="Telefone" />
             <br />
-            <ButtonFatec type="button" label="Botao 1" />
+            <ButtonFatec type="button" label="Enviar" />
         </>
     )
 }

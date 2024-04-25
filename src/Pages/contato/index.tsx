@@ -1,12 +1,12 @@
-import { Form } from "react-router-dom"
 import Layout from "../../components/layout"
+import Form from "../../components/form"
 
 function Contato(){
     return (
         <Layout>
                     <div>
-                        
-                        <Form>Entre em contato</Form>
+                        <h1>Entre em Contato</h1>
+                        <Form></Form>
                         
                     </div>
         </Layout>
